@@ -1,0 +1,20 @@
+.loginButton{
+    background-color: black;
+    border: none;
+}
+
+#showLogin{
+    background-color: white;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 40px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+#loggedInOptionsGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 20px;
+    gap: 10px;
+}

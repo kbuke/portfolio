@@ -1,0 +1,13 @@
+#newProjectContainer{
+    width: 800px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.newProjectInput{
+    margin-bottom: 20px;
+}

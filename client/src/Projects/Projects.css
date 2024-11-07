@@ -1,0 +1,111 @@
+#projectRenderGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+    color: white;
+    border-bottom: solid;
+}
+
+.projectContainer {
+    position: relative;
+    overflow-x: auto;
+    color: white;
+    border: solid;
+}
+
+.projectImg {
+    width: 100%;
+    height: 500px;
+    transition: transform 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+/* Trigger overlay to slide in from the right on hover of the entire container */
+.projectContainer:hover .overlay {
+    left: 0;
+}
+
+.projectTitle {
+    color: white;
+    text-decoration: underline;
+    font-size: 190%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.instituteLogo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 5px;
+}
+
+.pointsList{
+    color: white;
+}
+
+.linkContainer{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+}
+
+.linkImg{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#projectLinkGrid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    grid-template-columns: repeat(2, auto)
+}
+
+#newProjectStackButton{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.newPointContainer,
+.editProjectButtonContainer,
+.deleteProjectButtonContainer{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-self: center;
+    align-self: center;
+}
+
+
+.editProjectButton,
+.deleteProjectButton{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.pointOptionButton{
+    width: 100px;
+}

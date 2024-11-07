@@ -1,0 +1,15 @@
+#firstName,
+#lastName{
+    font-size: 600%
+}
+
+#firstName{
+    margin-bottom: 0px;
+}
+
+#lastName{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+

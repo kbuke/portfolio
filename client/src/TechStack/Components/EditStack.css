@@ -1,0 +1,14 @@
+#editStackForm{
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.editStackContainer{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
