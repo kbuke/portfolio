@@ -377,7 +377,6 @@ class Email(Resource):
             sender_email = os.environ.get("user_email")  
             sender_password = os.environ.get("secure_password")
             
-            #os.environ.get("gmail_password")  # Ensure this is securely stored in an environment variable
 
             # Construct the email message
             msg = MIMEText(f"From: {sender_name}\nCompany: {sender_company}\n\nMessage:\n{message}")
