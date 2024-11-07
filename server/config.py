@@ -23,7 +23,7 @@ app = Flask(
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URI")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.json.compact = False
-app.secret_key=/etc/secrets/secret_key
+app.secret_key="D\x85\x95\xe1\xc8\xc3n D[\xb6w\xa6\x0e\xe8^"
 
 #os.environ.get("secret_key")
 
