@@ -374,9 +374,11 @@ class Email(Resource):
             # SMTP server configuration
             smtp_server = "smtp.gmail.com"
             smtp_port = 587
-            sender_email = os.environ.get("email")  
+            sender_email = "kabuke13@gmail.com"
+            #os.environ.get("email")  
             print(sender_email)
-            sender_password = os.environ.get("google_password")
+            sender_password = "qnwx hges envp ivzq"
+            #os.environ.get("google_password")
             print(sender_password)
             
 
