@@ -310,9 +310,6 @@ class Login(Resource):
         email = json.get("email").strip()  # Remove any accidental spaces
         password = json.get("password")
 
-        print(f"Received email: {email}")
-        print(f"Received password: {password}")
-
         if not email or not password:
             return {"error": "Email and Password required"}, 400
 
