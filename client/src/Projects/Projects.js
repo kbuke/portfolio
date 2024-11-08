@@ -116,8 +116,8 @@ export default function Projects({
         const projectImg = project.image;
 
     
-        const projectInstitution = project.institutes;
-        const instituteLogo = projectInstitution.logo;
+        const projectInstitution = project.institutes || {};
+        const instituteLogo = projectInstitution.logo? projectInstitution.logo : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldmNv4T8GigQz22fsqi3xYDEMx5wHNMX-1g&s";
         const instituteName = projectInstitution.name;
     
         const gitLink = project.git_hub_link ? project.git_hub_link : null;
