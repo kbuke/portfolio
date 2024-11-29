@@ -1,0 +1,8 @@
+#emailContainer{
+    display: grid;
+    grid-template-columns: 40% 56%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

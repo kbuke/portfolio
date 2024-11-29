@@ -1,0 +1,32 @@
+#editInfoContainer{
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    width: 800px;
+    text-align: center;
+    height: 400px;
+}
+
+.infoGrid{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-bottom: 20px;
+}
+
+#editInfoButtonContainer{
+    display: grid;
+    margin-bottom: 10px;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.editInfoButtons{
+    width: 200px;
+}
+
+.editInfoText{
+    height: 150px;
+}

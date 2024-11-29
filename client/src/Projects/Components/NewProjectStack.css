@@ -1,0 +1,9 @@
+#projectStackContainer{
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    text-align: center;
+    color: black;
+}

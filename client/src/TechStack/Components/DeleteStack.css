@@ -1,0 +1,9 @@
+#deleteStackContainer{
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 600px;
+}

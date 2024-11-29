@@ -1,0 +1,21 @@
+
+.emailInput{
+    border: none;
+    height: 60px;
+    margin-bottom: 10px;
+    color: white;
+    border-bottom: solid;
+    background-color: black;
+    font-size: 150%;
+    width: 100%;
+}
+
+#emailSentNotification{
+
+    z-index: 1;
+    background-color: rgb(1, 128, 43);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
