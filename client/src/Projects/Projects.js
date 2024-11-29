@@ -265,9 +265,7 @@ export default function Projects({
     
                 <div className="projectStacks">
                     <h3 style={{ marginTop: "0px", fontWeight: 300 }}>
-                        {specificProjectStack.map((stack, index) => (
-                            <span key={index}>{stack}</span>
-                        ))}
+                        {specificProjectStack.join(" | ")}
                     </h3>
                 </div>
 
