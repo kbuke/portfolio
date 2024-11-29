@@ -1,8 +1,8 @@
-"""initial migration
+"""create portfolio table
 
-Revision ID: c36f50a7b326
+Revision ID: 0eb9516d739c
 Revises: 
-Create Date: 2024-11-29 14:45:00.237359
+Create Date: 2024-11-29 15:23:23.478423
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'c36f50a7b326'
+revision = '0eb9516d739c'
 down_revision = None
 branch_labels = None
 depends_on = None
